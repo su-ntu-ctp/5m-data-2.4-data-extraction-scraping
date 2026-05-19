@@ -1277,7 +1277,7 @@ Use the `parse_hockey_page()` helper above to scrape all 24 pages from [scrapeth
 2. For each page, call `requests.get()` then `parse_hockey_page(r.text)`
 3. Collect all row dicts into a single list called `all_rows`
 4. Add `time.sleep(1)` between requests (be polite to the server!)
-5. Convert `all_rows` to a DataFrame called `hockey_df`
+5. Convert `all_rows` to a DataFrame called `hockey_stats`
 6. Find the team with the most total Wins across all years
 
 ---
@@ -1289,7 +1289,7 @@ Use the `parse_hockey_page()` helper above to scrape all 24 pages from [scrapeth
 Use `all_rows = []`, then `all_rows.extend(parse_hockey_page(r.text))` inside the loop. `.extend()` adds multiple items at once (unlike `.append()` which would add a list-of-dicts as a single item).
 
 **💡 Hint 3 — Finding the team with most wins:**  
-After converting to a DataFrame, cast the `Wins` column to numeric with `pd.to_numeric(hockey_df['Wins'], errors='coerce')`, then use `.groupby('Team')['Wins'].sum().idxmax()`.
+After converting to a DataFrame, cast the `Wins` column to numeric with `pd.to_numeric(hockey_stats['Wins'], errors='coerce')`, then use `.groupby('Team')['Wins'].sum().idxmax()`.
 ```
 
 - [ ] **Step 4: Add empty code cell**
