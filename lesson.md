@@ -4,7 +4,7 @@
 
 ### Preparation
 
-- Ensure you have a basic understanding of HTML, CSS, REST API and GraphQL as listed in [studies](./studies.md).
+- Ensure you have a basic understanding of HTML, CSS, REST API and GraphQL as listed in [pre-class](./pre-class.md).
 
 - We will be using the `bde` environment for this lesson.If you do not have the environment, please refer to [the environment folder](https://github.com/su-ntu-ctp/5m-data-2.1-intro-big-data-eng/tree/main/environments). Setup instructions is at [installation page](https://github.com/su-ntu-ctp/5m-data-2.1-intro-big-data-eng/blob/main/installation.md)
 
