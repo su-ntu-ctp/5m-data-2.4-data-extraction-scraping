@@ -25,7 +25,7 @@ Conceptual knowledge, refer to slides.
 
 ## Part 2 - Hands-on with REST API, GraphQL and web scraping
 
-We will be using the `notebooks/extraction_scraping_lesson.ipynb` notebook throughout this lesson.
+We will be using the [notebooks/data_extraction_web_scraping.ipynb](./notebooks/data_extraction_web_scraping.ipynb) notebook throughout this lesson.
 
 > Open the notebook in VSCode by double clicking on the file. Then select `bde` conda environment for the kernel.
 >
