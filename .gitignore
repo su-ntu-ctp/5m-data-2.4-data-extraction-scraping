@@ -5,3 +5,9 @@ output/*.db*
 *.pyc
 __pycache__/
 .env
+.worktrees/
+.superpowers/
+.claude
+docs/
+notebooks/data_extraction_guide.ipynb
+notebooks/self_study_data_extraction.ipynb
